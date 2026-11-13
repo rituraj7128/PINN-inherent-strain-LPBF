@@ -1,0 +1,117 @@
+{
+ "A0": {
+  "build_s": 1715.3003628253937,
+  "release_s": 305.8301477432251,
+  "total_min": 33.68550850947698
+ },
+ "A0+lbfgs": {
+  "build_s": 1715.3003628253937,
+  "release_s": 1700.7652299404144,
+  "total_min": 56.9344265460968
+ },
+ "A0+release_features": {
+  "build_s": 1715.3003628253937,
+  "release_s": 257.852676153183,
+  "total_min": 32.885883982976274
+ },
+ "A0+tip_refinement": {
+  "build_s": 1715.3003628253937,
+  "release_s": 184.91302037239075,
+  "total_min": 31.670223053296407
+ },
+ "A0+stratified": {
+  "build_s": 1873.6247067451477,
+  "release_s": 197.58796954154968,
+  "total_min": 34.52021127144496
+ },
+ "A0+layer_enrichment": {
+  "build_s": 1639.1462035179138,
+  "release_s": 166.5453872680664,
+  "total_min": 30.094859846433003
+ },
+ "full-lbfgs": {
+  "build_s": NaN,
+  "release_s": 262.883597612381,
+  "total_min": NaN
+ },
+ "full-release_features": {
+  "build_s": NaN,
+  "release_s": 517.9072909355164,
+  "total_min": NaN
+ },
+ "full-tip_refinement": {
+  "build_s": NaN,
+  "release_s": 596.709566116333,
+  "total_min": NaN
+ },
+ "full-stratified": {
+  "build_s": 1645.3421540260315,
+  "release_s": 599.8185322284698,
+  "total_min": 37.41934477090835
+ },
+ "full-layer_enrichment": {
+  "build_s": 1685.8657298088074,
+  "release_s": 603.1649744510651,
+  "total_min": 38.15051173766454
+ },
+ "A0_s1": {
+  "build_s": 1649.3058369159698,
+  "release_s": 189.9391849040985,
+  "total_min": 30.654083697001138
+ },
+ "A0+lbfgs_s1": {
+  "build_s": 1649.3058369159698,
+  "release_s": 492.5176737308502,
+  "total_min": 35.69705851078034
+ },
+ "full-lbfgs_s1": {
+  "build_s": NaN,
+  "release_s": 241.2269401550293,
+  "total_min": NaN
+ },
+ "full-release_features_s1": {
+  "build_s": NaN,
+  "release_s": 504.49119758605957,
+  "total_min": NaN
+ },
+ "full-tip_refinement_s1": {
+  "build_s": NaN,
+  "release_s": 584.7474257946014,
+  "total_min": NaN
+ },
+ "A0_s2": {
+  "build_s": 1620.618693113327,
+  "release_s": 181.5215563774109,
+  "total_min": 30.03567082484563
+ },
+ "A0+lbfgs_s2": {
+  "build_s": 1620.618693113327,
+  "release_s": 516.9994888305664,
+  "total_min": 35.626969699064894
+ },
+ "full-lbfgs_s2": {
+  "build_s": NaN,
+  "release_s": 275.9324526786804,
+  "total_min": NaN
+ },
+ "full-release_features_s2": {
+  "build_s": NaN,
+  "release_s": 513.1511147022247,
+  "total_min": NaN
+ },
+ "full-tip_refinement_s2": {
+  "build_s": NaN,
+  "release_s": 607.8792502880096,
+  "total_min": NaN
+ },
+ "removed_rb1": {
+  "build_s": NaN,
+  "release_s": 173.24078845977783,
+  "total_min": NaN
+ },
+ "removed_rb100": {
+  "build_s": NaN,
+  "release_s": 175.89707398414612,
+  "total_min": NaN
+ }
+}

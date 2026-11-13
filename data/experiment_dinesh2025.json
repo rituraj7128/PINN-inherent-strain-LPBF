@@ -1,0 +1,97 @@
+{
+ "source": "Dinesh S, Sahu J, Mater. Today Commun. 42 (2025) 111512",
+ "notes": "Partial-cut profiles digitised from their Fig. 8 (point 0 from Table 7); CT from Fig. 15; XRD from Table 4; Simufact from Tables 6-7. x measured from the free end. CT bow values as reported in the text of Section 4.3.2 (1.12 / 0.93 mm); the digitised CT profile is used for the shape only. XRD after cutting: text of Section 4.1 (C 446 MPa, D 270.625 MPa).",
+ "probe_x_mm": [
+  2.0,
+  11.7,
+  21.4,
+  31.099999999999998,
+  40.8,
+  50.5,
+  60.199999999999996,
+  69.89999999999999
+ ],
+ "cut_length_mm": {
+  "C": 60.0,
+  "D": 54.0
+ },
+ "cut_dz_mm": {
+  "C": [
+   3.29,
+   2.12,
+   1.25,
+   0.65,
+   0.25,
+   -0.05,
+   -0.15,
+   -0.05
+  ],
+  "D": [
+   2.34,
+   1.47,
+   0.82,
+   0.35,
+   0.05,
+   -0.12,
+   -0.03,
+   -0.05
+  ]
+ },
+ "ct_after_removal_mm": {
+  "C": [
+   1.171194,
+   0.650631,
+   0.291737,
+   0.163488,
+   0.042567,
+   0.305136,
+   0.576517,
+   1.16314
+  ],
+  "D": [
+   1.013625,
+   0.415781,
+   0.231344,
+   0.161453,
+   0.092261,
+   0.203862,
+   0.413189,
+   1.021384
+  ]
+ },
+ "xrd_on_plate_MPa": {
+  "C": [
+   525,
+   651,
+   730,
+   701,
+   760,
+   748,
+   768,
+   562
+  ],
+  "D": [
+   284,
+   468,
+   537,
+   544,
+   502,
+   622,
+   550,
+   409
+  ]
+ },
+ "xrd_after_cut_mean_MPa": {
+  "C": 446,
+  "D": 270.625
+ },
+ "simufact_point0_mm": {
+  "C": 2.94496,
+  "D": 2.54135
+ },
+ "ct_bow_reported_mm": {
+  "C": 1.12,
+  "D": 0.93,
+  "note": "maximum deviation from the digital correlation of CT and design, text of Section 4.3.2 of the source; microscope 1.12 / 0.95"
+ }
+}

@@ -1,0 +1,65 @@
+PyTorch 2.14.1+cu130 | device: NVIDIA RTX A2000
+[cantilever_DinechSahu2025] build layer  1/20  energy 4.109e-01  (124s)
+[cantilever_DinechSahu2025] build layer  2/20  energy 1.740e-01  (121s)
+[cantilever_DinechSahu2025] build layer  3/20  energy 1.047e-01  (121s)
+[cantilever_DinechSahu2025] build layer  4/20  energy 7.465e-02  (110s)
+[cantilever_DinechSahu2025] build layer  5/20  energy 5.335e-02  (110s)
+[cantilever_DinechSahu2025] build layer  6/20  energy 4.618e-02  (116s)
+[cantilever_DinechSahu2025] build layer  7/20  energy 3.673e-02  (124s)
+[cantilever_DinechSahu2025] build layer  8/20  energy 3.417e-02  (119s)
+[cantilever_DinechSahu2025] build layer  9/20  energy 2.984e-02  (125s)
+[cantilever_DinechSahu2025] build layer 10/20  energy 2.530e-02  (112s)
+[cantilever_DinechSahu2025] build layer 11/20  energy 2.120e-02  (126s)
+[cantilever_DinechSahu2025] build layer 12/20  energy 1.993e-02  (127s)
+[cantilever_DinechSahu2025] build layer 13/20  energy 1.887e-02  (121s)
+[cantilever_DinechSahu2025] build layer 14/20  energy 1.661e-02  (122s)
+[cantilever_DinechSahu2025] build layer 15/20  energy 1.965e-02  (123s)
+[cantilever_DinechSahu2025] build layer 16/20  energy 3.913e-02  (126s)
+[cantilever_DinechSahu2025] build layer 17/20  energy 4.820e-02  (127s)
+[cantilever_DinechSahu2025] build layer 18/20  energy 4.826e-02  (126s)
+[cantilever_DinechSahu2025] build layer 19/20  energy 5.028e-02  (122s)
+[cantilever_DinechSahu2025] build layer 20/20  energy 4.693e-02  (132s)
+[cantilever_DinechSahu2025] release cut_C      energy -1.865e-01  (238s)
+[cantilever_DinechSahu2025] release cut_D      energy -1.768e-01  (225s)
+[cantilever_DinechSahu2025] release removed    energy -2.675e-01  (178s)
+[cantilever_DinechSahu2025] training done in 51.4 min
+== cantilever training: 51.4 min
+
+calibrated inherent strain eps* = 0.461 %  (FE reference gives 0.42 %)
+[twin_cantilever_72] build layer  1/20  energy 4.973e-01  (133s)
+[twin_cantilever_72] build layer  2/20  energy 2.247e-01  (135s)
+[twin_cantilever_72] build layer  3/20  energy 1.459e-01  (133s)
+[twin_cantilever_72] build layer  4/20  energy 7.836e-02  (120s)
+[twin_cantilever_72] build layer  5/20  energy 5.785e-02  (134s)
+[twin_cantilever_72] build layer  6/20  energy 4.470e-02  (134s)
+[twin_cantilever_72] build layer  7/20  energy 4.161e-02  (125s)
+[twin_cantilever_72] build layer  8/20  energy 3.398e-02  (131s)
+[twin_cantilever_72] build layer  9/20  energy 2.991e-02  (131s)
+[twin_cantilever_72] build layer 10/20  energy 2.911e-02  (133s)
+[twin_cantilever_72] build layer 11/20  energy 2.635e-02  (127s)
+[twin_cantilever_72] build layer 12/20  energy 2.171e-02  (134s)
+[twin_cantilever_72] build layer 13/20  energy 2.034e-02  (136s)
+[twin_cantilever_72] build layer 14/20  energy 1.860e-02  (124s)
+[twin_cantilever_72] build layer 15/20  energy 1.721e-02  (135s)
+[twin_cantilever_72] build layer 16/20  energy 3.568e-02  (136s)
+[twin_cantilever_72] build layer 17/20  energy 4.489e-02  (135s)
+[twin_cantilever_72] build layer 18/20  energy 4.574e-02  (136s)
+[twin_cantilever_72] build layer 19/20  energy 4.449e-02  (120s)
+[twin_cantilever_72] build layer 20/20  energy 4.345e-02  (120s)
+[twin_cantilever_72] release cut        energy -2.148e-01  (595s)
+[twin_cantilever_72] training done in 53.5 min
+== twin-cantilever training: 53.5 min
+
+quantity                                      ref     PINN    error
+C deflection pt0 (calibration)               3.29     3.19    -3.0%
+D deflection pt0 (prediction)                2.34     2.74   +16.9%
+Bow after removal vs CT C                    1.14     1.13    -1.2%
+Bow after removal vs CT D                    0.93     1.13   +21.1%
+On-plate stress, mean (exp C)              680.00   965.99   +42.1%
+Twin: end deflection L (Simufact)            1.28     1.25    -2.9%
+Twin: end deflection R (Simufact)            1.24     1.28    +2.5%
+Twin: on-plate stress mean (Simufact)      664.16   949.47   +43.0%
+Twin: after-cut stress mean (Simufact)     547.18   746.21   +36.4%
+Twin Z profile RMSE vs Simufact: 0.032 mm (2.5 % of peak)
+C:\Users\Administrator\Downloads\ispinn_calibrated_pinn\ispinn\run_pinn_v6_gpu.py:124: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.tight_layout(); plt.savefig(f"pinn_v6_results{SUF}.png", dpi=150); plt.show()

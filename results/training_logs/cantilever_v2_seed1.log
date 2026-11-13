@@ -1,0 +1,22 @@
+PyTorch 2.14.1+cu130 | device: NVIDIA RTX A2000
+[cantilever_DineshSahu2025] build layer  1/16  energy 4.087e-01  (83s)
+[cantilever_DineshSahu2025] build layer  2/16  energy 1.727e-01  (80s)
+[cantilever_DineshSahu2025] build layer  3/16  energy 1.034e-01  (80s)
+[cantilever_DineshSahu2025] build layer  4/16  energy 7.329e-02  (77s)
+[cantilever_DineshSahu2025] build layer  5/16  energy 5.236e-02  (77s)
+[cantilever_DineshSahu2025] build layer  6/16  energy 4.553e-02  (77s)
+[cantilever_DineshSahu2025] build layer  7/16  energy 3.502e-02  (77s)
+[cantilever_DineshSahu2025] build layer  8/16  energy 3.160e-02  (76s)
+[cantilever_DineshSahu2025] build layer  9/16  energy 2.885e-02  (77s)
+[cantilever_DineshSahu2025] build layer 10/16  energy 2.533e-02  (77s)
+[cantilever_DineshSahu2025] build layer 11/16  energy 2.287e-02  (77s)
+[cantilever_DineshSahu2025] build layer 12/16  energy 5.217e-02  (80s)
+[cantilever_DineshSahu2025] build layer 13/16  energy 6.548e-02  (79s)
+[cantilever_DineshSahu2025] build layer 14/16  energy 6.369e-02  (81s)
+[cantilever_DineshSahu2025] build layer 15/16  energy 5.873e-02  (80s)
+[cantilever_DineshSahu2025] build layer 16/16  energy 5.859e-02  (80s)
+[cantilever_DineshSahu2025] release cut_C      energy -2.355e-01  (176s)
+[cantilever_DineshSahu2025] release cut_D      energy -2.234e-01  (177s)
+[cantilever_DineshSahu2025] release removed    energy -3.244e-01  (146s)
+[cantilever_DineshSahu2025] training done in 29.3 min
+saved models\cantilever_seed1.pt

@@ -1,0 +1,67 @@
+{
+ "dz_x": [
+  1.13,
+  10.52,
+  19.9,
+  26.5,
+  35.2,
+  43.9,
+  51.2,
+  61.3,
+  70.3
+ ],
+ "dz": [
+  1.28272,
+  0.619624,
+  0.18346,
+  0.0162221,
+  -0.0423921,
+  -0.00826545,
+  0.15462,
+  0.6106,
+  1.2446
+ ],
+ "vm_on_x": [
+  70.3,
+  60.8,
+  49.6,
+  41.3,
+  35.0,
+  29.2,
+  18.7,
+  9.78,
+  0.95
+ ],
+ "vm_on": [
+  592.801,
+  681.181,
+  673.951,
+  705.173,
+  674.61,
+  700.706,
+  676.583,
+  671.382,
+  601.061
+ ],
+ "vm_cut_x": [
+  70.3,
+  61.0,
+  48.1,
+  39.4,
+  29.6,
+  22.0,
+  11.2,
+  1.13
+ ],
+ "vm_cut": [
+  610.048,
+  531.939,
+  521.619,
+  496.011,
+  525.08,
+  531.45,
+  540.286,
+  621.008
+ ],
+ "notes": "Simufact Additive 4.0, thermo-mechanical, IN718, process parameters and calibration of Dinesh & Sahu (2025); run by R. Raj. x local = x_Simufact - 89.0 mm. dz: Z displacement after cutting both arms; vm_on: effective stress at the end of cooling on the plate; vm_cut: after cutting."
+}
